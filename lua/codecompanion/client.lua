@@ -124,7 +124,7 @@ function Client:stream(adapter, payload, bufnr, cb)
     end,
   })
 
-  log:debug("Stream Request: %s", handler.args)
+  -- log:debug("Stream Request: %s", handler.args)
   start_request(bufnr, handler)
 end
 
